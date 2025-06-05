@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(rateLimiter);
 
 // Routes
-app.use('/api/chapters', chapterRoutes);
+app.use('/api/v1/chapters', chapterRoutes);
 
 // Handler for unmatched routes Ex:- 404 Not Found
 app.use((req, res, next) => {
