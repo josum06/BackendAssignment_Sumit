@@ -30,7 +30,7 @@ This project is a RESTful API service built with Node.js, Express.js, and MongoD
 - Pagination: `page`, `limit`
 
 📌 **Example:**  
-`GET /api/v1/chapters?class=10&subject=Math&status=completed&page=1&limit=5`
+`GET /api/v1/chapters?class=classs 11&subject=Math&status=completed&page=1&limit=5`
 
 ---
 
@@ -142,8 +142,6 @@ Ensure MongoDB and Redis are running locally (or update the URIs for cloud-hoste
 ```bash
 npm run dev
 ```
-
-The app will be live at `http://localhost:5000`
 
 ---
 
