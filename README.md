@@ -30,7 +30,7 @@ This project is a RESTful API service built with Node.js, Express.js, and MongoD
 - Pagination: `page`, `limit`
 
 📌 **Example:**  
-`GET /api/v1/chapters?class=classs 11&subject=Math&status=completed&page=1&limit=5`
+`GET /api/v1/chapters?class=class 11&subject=Math&status=completed&page=1&limit=5`
 
 ---
 
